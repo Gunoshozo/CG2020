@@ -170,6 +170,7 @@ class Model:
                     pixel[x, y] = col
 
     def calculate_norms(self):
+
         for i in self.faces:
             p1 = np.array([self.points[i[0] - 1]])
             p2 = np.array([self.points[i[1] - 1]])
